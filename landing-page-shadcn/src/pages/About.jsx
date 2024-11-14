@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div id="about" 
             className="mt-16 w-full min-h-screen box-border flex items-center justify-between px-[8%] py-8 relative shadow-[5px_10px_30px_rgba(0,0,0,0.336)] 
-            lg:px-[5%] md:flex  md:pt-0">
+             md:flex  md:pt-0">
             
             <div className="about-text w-[40%] text-left text-white leading-loose md:w-[90%] md:mt-12 md:text-left">
             <h1 className="font-[Alfa Slab One] tracking-[2px] text-[#3d2514] text-3xl md:text-7xl  md:font-black sm:text-2xl xs:text-xl mb-8">
