@@ -4,7 +4,7 @@ const Footer = () => {
     const year = new Date().getFullYear()
 
     return (
-        <div className="py-4 text-center text-sm text-gray-600 border-t border-gray-300 h-12">
+        <div className="py-4 text-center items-center justify-center text-sm text-gray-600 border-t border-gray-300 h-12">
             <p>
                 Copyright &copy; {year} by 
                 <a 
