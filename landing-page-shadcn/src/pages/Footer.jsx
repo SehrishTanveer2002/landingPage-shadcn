@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
-    const year = new Date().getFullYear()
+    const year = new Date().getFullYear();
 
     return (
-        <div className="py-4 text-center items-center justify-center text-sm text-gray-600 border-t border-gray-300 h-12">
-            <p>
+        <div className="py-4 text-center text-sm text-gray-600 border-t border-gray-300 mx-auto w-full">
+            <p className="flex justify-center items-center -ml-0 md:-ml-20">
                 Copyright &copy; {year} by 
                 <a 
                     target="_blank" 
@@ -17,6 +17,7 @@ const Footer = () => {
             </p>
         </div>
     );
-}
+};
 
 export default Footer;
+

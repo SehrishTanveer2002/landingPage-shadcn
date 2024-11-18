@@ -4,12 +4,15 @@ import banner from '../assets/banner.png';
 
 const Home = () => {
   return (
-    <div className="relative w-full md:w-[1400px] h-[668px] md:overflow-x-hidden bg-cover bg-no-repeat bg-left md:h-[650px] sm:h-[700px] mt-[40px]"
-      style={{ backgroundImage: `url(${banner})` }}>
-      <div className="absolute left-10 top-1/2 max-w-3xl w-full px-8 text-left transform -translate-y-1/2 lg:pl-16 sm:px-4">
+    <div
+    className="relative sm:w-full h-[768px]  bg-no-repeat bg-[left_70%_center] sm:bg-cover sm:bg-left md:h-[650px] sm:h-[700px] md:mt-[40px] mt-[-25px] overflow-x-hidden"
+    style={{ backgroundImage: `url(${banner})` }}
+  >
+  
+      <div className="absolute left-2 sm:left-10 top-80 sm:top-1/2 max-w-3xl w-full px-8 text-left transform -translate-y-1/2 lg:pl-16 sm:px-4">
         <h3 className="font-bebas text-[1.6rem] text-[#3d2514] tracking-tighter mb-4 md:text-[1.8rem] md:font-semibold">
           It’s Burger Time 🍔</h3>
-        <h1 className="font-slab text-9xl text-[#3d2514] tracking-wide mb-4 md:text-[5rem]">
+        <h1 className="font-slab text-7xl sm:text-8xl text-[#3d2514] tracking-wide mb-4 md:text-[5rem]">
         <span className="font-black border-b-2 border-[#3d2514] text-[#bf2222] pb-2 inline-block">Burger</span>
         <span className="font-black ml-2"> for</span> <br />
         <span className="font-black">Week</span>
